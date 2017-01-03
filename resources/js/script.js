@@ -21,7 +21,7 @@ $(document).ready(function() {
 	      $("footer").removeClass();
 		  $("footer").addClass("light-blue accent-3 white-text");
 		  $("meta[name=theme-color]").attr("content", "#00b0ff");
-		  History.pushState(null, "Rahul Yesantharao", " ")
+		 // History.pushState(null, "Rahul Yesantharao", " ")
 	});
 
 	$("#aboutNav").click(function(e) {
@@ -38,7 +38,7 @@ $(document).ready(function() {
 	      $("footer").removeClass();
 		  $("footer").addClass("red darken-1 white-text");
 		  $("meta[name=theme-color]").attr("content", "#e53935");
-		  History.pushState(null, "About | Rahul Yesantharao", "about")
+		//  History.pushState(null, "About | Rahul Yesantharao", "about")
 	});
 
 	$("#projectsNav").click(function(e) {
@@ -55,7 +55,7 @@ $(document).ready(function() {
 	      $("footer").removeClass();
 		  $("footer").addClass("green accent-4 white-text");
 		  $("meta[name=theme-color]").attr("content", "#00c864");
-		  History.pushState(null, "Projects | Rahul Yesantharao", "projects")
+		//  History.pushState(null, "Projects | Rahul Yesantharao", "projects")
 	});
 
 	$("#contactNav").click(function(e) {
@@ -72,7 +72,7 @@ $(document).ready(function() {
 	      $("footer").removeClass();
 		  $("footer").addClass("yellow darken-2 white-text");
 		  $("meta[name=theme-color]").attr("content", "#fbc02d");
-		  History.pushState(null, "Contact | Rahul Yesantharao", "contact")
+		//  History.pushState(null, "Contact | Rahul Yesantharao", "contact")
 	});
 
 	// modal code	
